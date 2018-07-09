@@ -1,5 +1,9 @@
 target=account
 
+select
+account:closedate='--/--/--'
+end
+
 for each tracking with tracking type=22 
     do
     print account:number
