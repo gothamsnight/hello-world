@@ -1,0 +1,7 @@
+target=account
+
+for each tracking with tracking type=22 
+    do
+    print account:number
+    end
+    
